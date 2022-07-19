@@ -1,16 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# Tailwind core 
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Recommended plugins & libraries
+- [Tailwind Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Debug screen](https://github.com/jorenvanhee/tailwindcss-debug-screens) - Display active breakpoint
+- [reoccuring css](https://marketplace.visualstudio.com/items?itemName=urbantrout.refactor-css)
+- [for react devs](https://github.com/ben-rogerson/twin.macro) ?
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Tailwind approaches
+- [How to use tailwind](https://css-tricks.com/disambiguating-tailwind/)
+- [vs BEM](https://www.thomasdhondt.be/blog/i-changed-my-mind-about-tailwind-css)
+- [vs inline styles](https://css-tricks.com/if-were-gonna-criticize-utility-class-frameworks-lets-be-fair-about-it/)
+- [With BEM](https://aem.news/bem-tailwind/)
 
-## Type Support For `.vue` Imports in TS
+## Components libraries
+- [flowbite](https://flowbite.com/)
+- [daisyui](https://daisyui.com/)
+- [tailwindcomponents](https://tailwindcomponents.com/) - community Components similar to codepen
+- [TailwindUi](https://tailwindui.com/)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+## Tips
+- watchout undefined class in prod
+- format css with prettier not volar
+- setup good formating for line width
+- presets for sharing tailwind config [video](https://www.youtube.com/watch?v=AaZhspn7-MM)
